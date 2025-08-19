@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Coursiya — Learn new skills, advance your career. Discover top-rated courses by expert instructors." />
+    <meta name="theme-color" content="#7c3aed" />
+    <title>Coursiya • Learn new skills anytime, anywhere</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container nav-container">
+        <a href="#" class="brand" aria-label="Coursiya home">
+          <span class="brand-mark" aria-hidden="true">C</span>
+          <span class="brand-text">Coursiya</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+          <i class="ri-menu-line" aria-hidden="true"></i>
+        </button>
+
+        <nav class="nav" id="nav-menu" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-actions">
+            <button class="btn btn-ghost" id="themeToggle" aria-label="Toggle dark mode">
+              <i class="ri-moon-line" aria-hidden="true"></i>
+            </button>
+            <a href="#" class="btn btn-ghost">Sign in</a>
+            <a href="#" class="btn btn-primary">Sign up</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Top-rated online courses</div>
+            <h1>Learn anything, anytime with <span class="brand-grad">Coursiya</span></h1>
+            <p>Build work-ready skills with courses taught by expert instructors. Flexible, affordable, and designed for real outcomes.</p>
+
+            <form class="search" role="search" aria-label="Search courses">
+              <i class="ri-search-2-line" aria-hidden="true"></i>
+              <input type="search" name="q" placeholder="Search for courses: e.g., React, Python, UX Design" autocomplete="off" />
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+
+            <ul class="hero-bullets">
+              <li><i class="ri-checkbox-circle-line"></i> Lifetime access</li>
+              <li><i class="ri-checkbox-circle-line"></i> Certificates of completion</li>
+              <li><i class="ri-checkbox-circle-line"></i> Learn at your own pace</li>
+            </ul>
+          </div>
+
+          <div class="hero-media">
+            <div class="media-card">
+              <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1200&auto=format&fit=crop" alt="Student learning online on a laptop" />
+              <div class="media-overlay">
+                <div class="overlay-row">
+                  <div class="chip chip-success">4.8 ★</div>
+                  <div class="chip">Beginner</div>
+                </div>
+                <div class="overlay-title">Master Modern JavaScript</div>
+                <div class="overlay-sub">120k+ learners</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container trusted">
+          <div class="trusted-label">Trusted by professionals at</div>
+          <ul class="trusted-logos" aria-label="Trusted brands">
+            <li>Acme</li>
+            <li>Orbit</li>
+            <li>Pixel</li>
+            <li>Nova</li>
+            <li>Zenith</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="container">
+          <div class="section-head">
+            <h2>Browse by category</h2>
+            <a class="link" href="#">View all categories <i class="ri-arrow-right-up-line"></i></a>
+          </div>
+          <div class="category-grid">
+            <a href="#" class="category-card">
+              <i class="ri-code-box-line"></i>
+              <div>
+                <h3>Development</h3>
+                <p>Web, mobile, backend</p>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <i class="ri-pen-nib-line"></i>
+              <div>
+                <h3>Design</h3>
+                <p>UI/UX, graphics, product</p>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <i class="ri-line-chart-line"></i>
+              <div>
+                <h3>Marketing</h3>
+                <p>SEO, content, growth</p>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <i class="ri-briefcase-line"></i>
+              <div>
+                <h3>Business</h3>
+                <p>Strategy, leadership</p>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <i class="ri-camera-3-line"></i>
+              <div>
+                <h3>Photography</h3>
+                <p>Portraits, editing</p>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <i class="ri-bar-chart-2-line"></i>
+              <div>
+                <h3>Data Science</h3>
+                <p>ML, AI, analytics</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="courses" aria-labelledby="featured-heading">
+        <div class="container">
+          <div class="section-head">
+            <h2 id="featured-heading">Featured courses</h2>
+            <div class="filters">
+              <button class="chip is-active">All</button>
+              <button class="chip">Beginner</button>
+              <button class="chip">Intermediate</button>
+              <button class="chip">Advanced</button>
+            </div>
+          </div>
+
+          <div class="course-grid">
+            <article class="course-card">
+              <a href="#" class="thumb">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1200&auto=format&fit=crop" alt="React course cover" />
+                <div class="badge">Bestseller</div>
+              </a>
+              <div class="course-body">
+                <h3 class="course-title"><a href="#">React 18 for Professionals</a></h3>
+                <p class="course-meta">By Alex Morgan • 18h • Updated Aug 2025</p>
+                <div class="rating">
+                  <span>4.8</span>
+                  <span class="stars" aria-label="4.8 out of 5">★★★★★</span>
+                  <span class="count">(12,341)</span>
+                </div>
+                <div class="course-footer">
+                  <div class="price">$19.99</div>
+                  <button class="btn btn-outline">View details</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <a href="#" class="thumb">
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop" alt="JavaScript course cover" />
+                <div class="badge">Updated</div>
+              </a>
+              <div class="course-body">
+                <h3 class="course-title"><a href="#">Modern JavaScript: From Zero to Hero</a></h3>
+                <p class="course-meta">By Priya Gupta • 22h • Updated Jun 2025</p>
+                <div class="rating">
+                  <span>4.7</span>
+                  <span class="stars" aria-label="4.7 out of 5">★★★★☆</span>
+                  <span class="count">(9,552)</span>
+                </div>
+                <div class="course-footer">
+                  <div class="price">$16.99</div>
+                  <button class="btn btn-outline">View details</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <a href="#" class="thumb">
+                <img src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?q=80&w=1200&auto=format&fit=crop" alt="Python course cover" />
+                <div class="badge">Beginner</div>
+              </a>
+              <div class="course-body">
+                <h3 class="course-title"><a href="#">Python for Data Science</a></h3>
+                <p class="course-meta">By Diego Ramos • 12h • Updated May 2025</p>
+                <div class="rating">
+                  <span>4.6</span>
+                  <span class="stars" aria-label="4.6 out of 5">★★★★☆</span>
+                  <span class="count">(7,203)</span>
+                </div>
+                <div class="course-footer">
+                  <div class="price">$14.99</div>
+                  <button class="btn btn-outline">View details</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <a href="#" class="thumb">
+                <img src="https://images.unsplash.com/photo-1532619187608-e5375cab36aa?q=80&w=1200&auto=format&fit=crop" alt="UI/UX course cover" />
+                <div class="badge">Design</div>
+              </a>
+              <div class="course-body">
+                <h3 class="course-title"><a href="#">UI/UX Design Bootcamp</a></h3>
+                <p class="course-meta">By Mia Chen • 20h • Updated Mar 2025</p>
+                <div class="rating">
+                  <span>4.9</span>
+                  <span class="stars" aria-label="4.9 out of 5">★★★★★</span>
+                  <span class="count">(5,118)</span>
+                </div>
+                <div class="course-footer">
+                  <div class="price">$21.99</div>
+                  <button class="btn btn-outline">View details</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <a href="#" class="thumb">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop" alt="Business course cover" />
+                <div class="badge">Business</div>
+              </a>
+              <div class="course-body">
+                <h3 class="course-title"><a href="#">Product Management Essentials</a></h3>
+                <p class="course-meta">By Sarah Kim • 9h • Updated Apr 2025</p>
+                <div class="rating">
+                  <span>4.5</span>
+                  <span class="stars" aria-label="4.5 out of 5">★★★★☆</span>
+                  <span class="count">(4,307)</span>
+                </div>
+                <div class="course-footer">
+                  <div class="price">$13.99</div>
+                  <button class="btn btn-outline">View details</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <a href="#" class="thumb">
+                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981d?q=80&w=1200&auto=format&fit=crop" alt="Data science course cover" />
+                <div class="badge">Data</div>
+              </a>
+              <div class="course-body">
+                <h3 class="course-title"><a href="#">Machine Learning A–Z</a></h3>
+                <p class="course-meta">By James Lee • 26h • Updated Feb 2025</p>
+                <div class="rating">
+                  <span>4.6</span>
+                  <span class="stars" aria-label="4.6 out of 5">★★★★☆</span>
+                  <span class="count">(8,912)</span>
+                </div>
+                <div class="course-footer">
+                  <div class="price">$24.99</div>
+                  <button class="btn btn-outline">View details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="benefits">
+        <div class="container benefits-grid">
+          <div class="benefit">
+            <div class="benefit-icon"><i class="ri-slideshow-3-line"></i></div>
+            <h3>Expert instructors</h3>
+            <p>Learn from industry leaders bringing real-world experience and practical insights.</p>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon"><i class="ri-time-line"></i></div>
+            <h3>Flexible schedule</h3>
+            <p>Short, engaging lessons you can fit into your day — on any device.</p>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon"><i class="ri-medal-line"></i></div>
+            <h3>Certificates</h3>
+            <p>Earn shareable certificates to showcase your new skills and achievements.</p>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon"><i class="ri-shield-check-line"></i></div>
+            <h3>Lifetime access</h3>
+            <p>Revisit content anytime with lifetime access to enrolled courses.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="stats">
+        <div class="container stats">
+          <div class="stat">
+            <div class="stat-num">850k+</div>
+            <div class="stat-label">Learners</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">1,200+</div>
+            <div class="stat-label">Courses</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">3,500+</div>
+            <div class="stat-label">Instructors</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">97%</div>
+            <div class="stat-label">Satisfaction</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="testimonials" aria-labelledby="testimonials-heading">
+        <div class="container">
+          <div class="section-head">
+            <h2 id="testimonials-heading">What learners say</h2>
+          </div>
+
+          <div class="testimonial-carousel" role="region" aria-roledescription="carousel" aria-label="Learner testimonials">
+            <div class="track" id="testimonialTrack">
+              <figure class="testimonial is-active">
+                <blockquote>“Coursiya helped me switch careers into frontend development. The projects and feedback were invaluable.”</blockquote>
+                <figcaption>
+                  <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=400&auto=format&fit=crop" alt="Photo of Emma" />
+                  <div>
+                    <div class="name">Emma Johnson</div>
+                    <div class="role">Frontend Engineer, Orbit</div>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="testimonial">
+                <blockquote>“I loved the flexibility — learned after work and applied new skills the next day.”</blockquote>
+                <figcaption>
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" alt="Photo of Lucas" />
+                  <div>
+                    <div class="name">Lucas Martin</div>
+                    <div class="role">Marketing Lead, Nova</div>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="testimonial">
+                <blockquote>“High-quality courses and engaging instructors. The certificate boosted my profile.”</blockquote>
+                <figcaption>
+                  <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?q=80&w=400&auto=format&fit=crop" alt="Photo of Aisha" />
+                  <div>
+                    <div class="name">Aisha Khan</div>
+                    <div class="role">Data Analyst, Zenith</div>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="dots" role="tablist" aria-label="Testimonials navigation">
+              <button class="dot is-active" role="tab" aria-selected="true" aria-controls="slide-1"></button>
+              <button class="dot" role="tab" aria-selected="false" aria-controls="slide-2"></button>
+              <button class="dot" role="tab" aria-selected="false" aria-controls="slide-3"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="pricing">
+        <div class="container cta-inner">
+          <div class="cta-copy">
+            <h2>Join Coursiya today</h2>
+            <p>Start learning for as low as $9.99. Get unlimited access with Pro — cancel anytime.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="#" class="btn btn-primary btn-lg">Get started</a>
+            <a href="#" class="btn btn-ghost btn-lg">Explore courses</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="about">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="brand">
+            <span class="brand-mark">C</span>
+            <span class="brand-text">Coursiya</span>
+          </a>
+          <p>Empowering anyone to learn new skills and transform their career — anywhere, anytime.</p>
+          <div class="socials">
+            <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ri-youtube-line"></i></a>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Product">
+          <h3>Product</h3>
+          <ul>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">For Teams</a></li>
+            <li><a href="#">Mobile App</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Resources">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Affiliate</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Company">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-newsletter" id="contact">
+          <h3>Stay in the loop</h3>
+          <p>Get the latest courses and updates delivered to your inbox.</p>
+          <form class="newsletter" action="#" method="post">
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" type="email" placeholder="you@domain.com" required />
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-base">
+        <div>© <span id="year"></span> Coursiya. All rights reserved.</div>
+        <div class="legal">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="to-top" id="toTop" aria-label="Scroll to top">
+      <i class="ri-arrow-up-line" aria-hidden="true"></i>
+    </button>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
